@@ -1,0 +1,48 @@
+:root{
+    --yellow: hsl(47,88%,63%);
+    --gray-950: hsl(0,0%,7%);
+    --gray-500: hsl(0,0%,42%);
+    --white: hsl(0,0%,100%);
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+.text-preset-1{
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-variation-settings: "wght" 800;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.text-preset-2{
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-variation-settings: "wght" 500;
+    font-style: normal;
+    line-height: 150%;
+}
+.text-preset-3{
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-variation-settings: "wght" 500;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.text-preset-3-bold{
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-variation-settings: "wght" 800;
+    font-style: normal;
+    line-height: 150%;
+}
+
